@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: EDD Changelog
+ * Plugin Name: Forked EDD Changelog
  * Plugin URI: https://wpfusion.com/
  * Description: Beautiful changelog display for Easy Digital Downloads products
  * Version: 1.2.6
