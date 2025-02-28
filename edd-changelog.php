@@ -3,7 +3,7 @@
  * Plugin Name: Forked EDD Changelog
  * Plugin URI: https://wpfusion.com/
  * Description: Beautiful changelog display for Easy Digital Downloads products
- * Version: 1.2.7
+ * Version: 1.2.8
  * Author: Very Good Plugins
  * Author URI: https://verygoodplugins.com/
  * Text Domain: edd-changelog
@@ -74,6 +74,20 @@ function edd_changelog_shortcode( $atts ) {
 				'emoji'      => '🛠️',
 				'class'      => 'dev',
 				'ltrim'      => 'Developer:',
+			),
+			'security' => array(
+				'prefix'     => 'Security',
+				'badge_text' => 'Security',
+				'emoji'      => '🔐',
+				'class'      => 'security',
+				'ltrim'      => 'Security:',
+			),
+			'breaking' => array(
+				'prefix'     => 'Breaking',
+				'badge_text' => 'Breaking',
+				'emoji'      => '⚠️',
+				'class'      => 'breaking',
+				'ltrim'      => 'Breaking:',
 			),
 		)
 	);
