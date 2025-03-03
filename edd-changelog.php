@@ -53,7 +53,7 @@ function edd_changelog_shortcode( $atts ) {
 				'badge_text' => 'New',
 				'emoji'      => '✨',
 				'class'      => 'new',
-				'ltrim'      => Added:,
+				'ltrim'      => 'Added:',
 			),
 			'improved'  => array(
 				'prefix'     => 'Improved',
@@ -61,7 +61,7 @@ function edd_changelog_shortcode( $atts ) {
 				'badge_text' => 'Improved',
 				'emoji'      => '⚡️',
 				'class'      => 'improved',
-				'ltrim'      => 'Improved: ',
+				'ltrim'      => 'Improved:',
 			),
 			'fix'       => array(
 				'prefix'     => 'Fix',
@@ -69,7 +69,7 @@ function edd_changelog_shortcode( $atts ) {
 				'badge_text' => 'Fixed',
 				'emoji'      => '🔧',
 				'class'      => 'fixed',
-				'ltrim'      => Fix:,
+				'ltrim'      => 'Fix:',
 			),
 			'developer' => array(
 				'prefix'     => 'Developer',
@@ -77,7 +77,7 @@ function edd_changelog_shortcode( $atts ) {
 				'badge_text' => 'Dev',
 				'emoji'      => '🛠️',
 				'class'      => 'dev',
-				'ltrim'      => 'Developers: ',
+				'ltrim'      => 'Developers:',
 			),
 			'security' => array(
 				'prefix'     => 'Security',
