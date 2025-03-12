@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Forked EDD Changelog
  * Description: Beautiful changelog display for Easy Digital Downloads products
- * Version: 1.3.7
+ * Version: 1.3.8
  * Author: Jeff Chandler
  * Text Domain: edd-changelog
  *
