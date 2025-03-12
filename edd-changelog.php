@@ -70,7 +70,7 @@ function edd_changelog_shortcode( $atts ) {
 				'ltrim'      => 'Fix:',
 			),
 			'developer' => array(
-				'prefix'     => 'Developer',
+				'prefix'     => 'Dev',
 				'color'      => '#1f262b',
 				'badge_text' => 'Dev',
 				'emoji'      => '🛠️',
